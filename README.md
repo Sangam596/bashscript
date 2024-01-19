@@ -10,6 +10,9 @@ There are many different shells that can be used for scripting, but the most pop
 
 # Here are some of the benefits of using shell scripting:
 Automation: Shell scripts can automate repetitive tasks, saving time and effort.
+
 Efficiency: Shell scripts can be used to create efficient programs that can run quickly and smoothly.
+
 Flexibility: Shell scripts can be used to create a wide variety of programs, from simple scripts to complex applications.
+
 Portability: Shell scripts can be run on any Unix-based operating system, making them a portable solution for automating tasks.

@@ -6,10 +6,12 @@
 echo "This is my first shell script" # This is the comment
 ls 
 pwd 
-
+cat
 sleep 10
 
 echo done
+
+
 
 #while running any script you need to run that script with the ./ because that represents current working directory
 #run the command type -a command to know the command/word is shell builtin or reserved keyword
