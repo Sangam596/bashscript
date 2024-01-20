@@ -23,7 +23,7 @@
  #System Defined variables
  # to print system variables
  #env remove # while priting system environment variable
- # man bash - to get more information on Shell Variables etc 
+ # man bash / help bash - to get more information on Shell Variables etc 
  echo SHELL ${SHELL} # which shell
  echo HOME ${HOME} 
  echo OSTYPE ${OSTYPE}
