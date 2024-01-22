@@ -17,4 +17,5 @@ echo done
 #run the command type -a command to know the command/word is shell builtin or reserved keyword
 #echo $PATH - to know the all builtin/binary paths available in system
 #cat /etc/shells to know what are shell types available on system
+# shell script should be always run as root user
 
