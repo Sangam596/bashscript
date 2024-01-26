@@ -108,11 +108,23 @@ if [[  ${OS_TYPE} == "Linux" ]]
 then 
     if [[ ${UID} -eq 0 ]]
     then
-        echo "user is root and os is Linux"
+        echo "10 : user is root and os is Linux"
     fi
-else echo "os is not Linux"
+else echo "10: os is not Linux"
+
 fi
 if [[  ${OS_TYPE} == "Linux" || ${OS_TYPE} == "MINGW64_NT-10.0-22631" || ${UID} -eq 0 ]]
 then 
-    echo "user is root or os is Linux"
+    echo "11: user is root or os is Linux"
 fi
+
+number=10
+
+if [[ $number -lt 10 ]]
+then echo "12 : number is greater than 10"
+elif [[ $number -gt 10 ]]
+then echo "12 : number is less than 10"
+elif [[ $number -eq 10 ]]
+then echo "12 : number is equal to 10"
+fi
+
